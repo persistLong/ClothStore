@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BannerLayoutStyle">
+        <attr name="selectedIndicatorColor" format="color|reference" />
+        <attr name="unSelectedIndicatorColor" format="color|reference" />
+        <attr name="indicatorShape" format="enum">
+            <enum name="rect" value="0" />
+            <enum name="oval" value="1" />
+        </attr>
+
+        <attr name="selectedIndicatorHeight" format="dimension|reference" />
+        <attr name="selectedIndicatorWidth" format="dimension|reference" />
+
+        <attr name="unSelectedIndicatorHeight" format="dimension|reference" />
+        <attr name="unSelectedIndicatorWidth" format="dimension|reference" />
+
+        <attr name="indicatorPosition" format="enum">
+            <enum name="centerBottom" value="0" />
+            <enum name="rightBottom" value="1" />
+            <enum name="leftBottom" value="2" />
+            <enum name="centerTop" value="3" />
+            <enum name="rightTop" value="4" />
+            <enum name="leftTop" value="5" />
+        </attr>
+
+        <attr name="indicatorSpace" format="dimension|reference" />
+        <attr name="indicatorMargin" format="dimension|reference" />
+        <attr name="autoPlayDuration" format="integer|reference" />
+        <attr name="scrollDuration" format="integer|reference" />
+        <attr name="isAutoPlay" format="boolean|reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="FixHeiImageView">
+        <attr name="whratio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="FixHeiTextView">
+        <attr name="txratio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="FixHeiViewPager">
+        <attr name="vpratio" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="CoverFlowView">
+        <attr name="visibleViews" format="integer" />
+        <!--<attr name="reflectionHeight" format="fraction" />-->
+        <!--<attr name="reflectionGap" format="dimension" />-->
+        <!--<attr name="topImageClickEnable" format="boolean" />-->
+        <attr name="coverflowGravity" format="enum">
+            <enum name="top" value="0" />
+            <enum name="bottom" value="1" />
+            <enum name="center_vertical" value="2" />
+        </attr>
+        <attr name="coverflowLayoutMode" format="enum">
+            <enum name="match_parent" value="0"/>
+            <enum name="wrap_content" value="1"/>
+        </attr>
+        <attr name="coverflowAlpha" format="integer"></attr>
+        <attr name="coverflowScale" format="float"></attr>
+    </declare-styleable>
+</resources>

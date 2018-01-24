@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/epc_lly"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_border_red"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+    <com.ioter.clothesstrore.wdiget.FixHeiImageView
+        android:id="@+id/epc_iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dp"
+        android:src="@mipmap/ic_launcher"
+        app:whratio="1.18"
+        />
+</LinearLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="6dp"
+    >
+
+    <ImageView
+        android:id="@+id/epc_iv"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/epc_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignTop="@+id/epc_iv"
+        android:layout_toRightOf="@id/epc_iv"
+       />
+
+    <TextView
+        android:id="@+id/epc_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/epc_iv"
+        android:layout_toRightOf="@id/epc_iv"
+        />
+
+    <TextView
+        android:id="@+id/epc_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_alignBottom="@+id/epc_iv"
+        android:layout_toRightOf="@id/epc_style"
+        />
+
+</RelativeLayout>

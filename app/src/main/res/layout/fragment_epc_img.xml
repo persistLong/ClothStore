@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_arrow_up"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:src="@mipmap/ic_arrow_up"/>
+
+    <ListView
+        android:id="@+id/ic_common_lv"
+        android:layout_below="@+id/iv_arrow_up"
+        android:layout_above="@+id/iv_arrow_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:divider="@null"
+        android:dividerHeight="8dp"
+        android:fastScrollEnabled="false"
+        android:listSelector="#00000000"
+        android:scrollbars="none"
+        android:scrollingCache="false">
+    </ListView>
+
+
+    <ImageView
+        android:id="@+id/iv_arrow_down"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:src="@mipmap/ic_arrow_down"/>
+
+
+</RelativeLayout>
+
+

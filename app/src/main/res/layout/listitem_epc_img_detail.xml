@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+
+    <ImageView
+        android:id="@+id/epc_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher"/>
+
+    <TextView
+        android:id="@+id/tid_pirce_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:background="#fbe382"
+        android:padding="6dp"
+        android:text="¥ 198"
+        android:textSize="45sp"
+        />
+
+
+    <TextView
+        android:id="@+id/tid_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="16dp"
+        android:background="#fbe382"
+        android:padding="5dp"
+        android:text="轻薄保暖羽绒服"
+        android:textSize="30sp"
+        />
+</RelativeLayout>
+
